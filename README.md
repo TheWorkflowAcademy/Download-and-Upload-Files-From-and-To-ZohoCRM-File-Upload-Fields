@@ -18,7 +18,7 @@ This is something that we find ourselves occasionally doing and the lack of clea
   - Get the file ID and put it in a map, in a list
   - Upload to another file upload field by putting the list into the update map
 
-```
+```javascript
 recordId_1 = xxxxxxxxxxxxxxxxx;
 recordInfo = zoho.crm.getRecordById("Module_1",recId);
 // Get file upload field
@@ -63,7 +63,7 @@ if (!fileUploadField.isNull())
 ## Additional Tip - How to Delete Files from File Upload Fields
 While we're on the topic of file upload fields, here's a quick code you can use to remove existing files from a file upload field. A recent use case for this is an automation where we needed to replace a contract document with the signed copy when the contract gets signed.
 
-```
+```javascript
 filelist = List();
 // You can add new files here
 // <script>
