@@ -60,7 +60,7 @@ if (!fileUploadField.isNull())
 }
 ```
 
-## Additional Tip - How to Delete Files from File Upload Field
+## Additional Tip - How to Delete Files from File Upload Fields
 While we're on the topic of file upload fields, here's a quick code you can use to remove existing files from a file upload field. A recent use case for this is an automation where we needed to replace a contract document with the signed copy when the contract gets signed.
 
 ```
