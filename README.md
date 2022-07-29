@@ -2,7 +2,7 @@
 A Deluge code for downloading and uploading files from and to Zoho CRM file upload fields.
 
 ## Problem Statement
-This is something that we find ourselves occasionally doing and the lack of clear documentations online warrants a quick article. In the most recent use case, we needed to move record info from one module to another as part of a migration task. This involves moving files from file upload fields across modules.
+This is something that we find ourselves occasionally doing and the lack of clear documentations online warrants a quick article. In a recent use case, we needed to move record info from one module to another as part of a migration task. This involves moving files from file upload fields across modules.
 
 ## Scopes Needed
 - ZohoCRM.modules.ALL
